@@ -1,0 +1,32 @@
+
+.btn
+{
+    @extend %btnplaceholder;
+    color:$btnlightcolor;
+}
+.btnlg
+{
+   font-size:$btnlgfontsize ;
+   width: 100%;
+}
+.btn-md
+{
+   font-size:$btnnmfontsize ;
+}
+.btn-sm
+{
+   font-size:$btnsmfontsize ;
+}
+
+.btn-primary
+{
+    background-color: $btnbgprimary;
+}
+.btn-sucess
+{
+    background-color:$btnbgsuccess;
+}
+.btn-danger
+{
+    $background-color:$btnbgdanger;
+}
